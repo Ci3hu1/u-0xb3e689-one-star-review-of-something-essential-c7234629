@@ -26,3 +26,10 @@
 - Kit init: anchor 38dc72e (drand round 34229007), LICENSE ec47cf6 (SPDX MIT line present).
 - Entry commit + push + About set (see below).
 - Kit note: kit copy on disk is level 39 while make.fun is at level 40; bundle + check (after 'Setuju') should use a freshly downloaded level-40 kit.
+
+## Submitted — 24 Nov ~10:44 WIB (on Joni's "Setuju semua")
+- Submission: 01a20ba7-5f90-7091-bebb-434df5858fd3, stage "submitting" (blind rounds — 6 rounds, counts from round 1 of 6; R1 cutoff 24 Nov 17:20 WIB).
+- Bundle: ~/workspace/tools/makefun/bundles/u-0xb3e689-one-star-review-of-something-essential-c7234629.tar.gz, sha256 4c882a0b920e617f33cca53de7d47b6d8f2c2e3926fa88be3da83c455223ba6a, 542,908 B (fresh level-40 kit; TWO sessions — v1 builder 81204006 + Batch C 2e637d2a, --no-discover, 2 usage rows attached). First bundle (2e637d2a only) failed thinking_reproduces at 25/151 (16.5%) because README.md + STRATEGY.md were written by the v1 session, not Batch C; adding the v1 session fixed it to 84/151 (55.6%).
+- Kit check on 7759aa1b: ok TRUE, failed [] — thinking_reproduces 84/151 (55.6%), thinking_revised PASS (4 messages).
+- Claim code saved ONLY to ~/.config/makefun/u-0xb3e689-one-star-review-of-something-essential-c7234629-submission.json (0600).
+- Live score / rank: none yet (blind rounds; nothing judged until R1).
